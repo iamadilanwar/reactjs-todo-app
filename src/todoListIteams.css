@@ -1,0 +1,56 @@
+.list {
+    color: #fff;
+    width: 90%;
+    margin: 20px;
+    height: auto;
+    background: linear-gradient(135deg, #5ee7df 0%, #b490ca 100%);
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+    border-radius: 15px;
+    padding: 0px;
+}
+
+.list p {
+    padding: 10px;
+    position: relative;
+    transition: ease-in-out;
+}
+
+.list p input {
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+}
+
+.list p input:focus {
+    outline: none;
+}
+
+.list p span {
+    position: absolute;
+    right: 10px;
+}
+
+.faicons {
+    margin: 0 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.itemsAnim-enter {
+    opacity: 0.01;
+}
+
+.itemsAnim-enter .itemsAnim-enter-active {
+    opacity: 1;
+    transition: opacity 300ms ease-in
+}
+
+.itemsAnim-leave {
+    opacity: 1;
+}
+
+.itemsAnim-leave .itemsAnim-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in
+}
